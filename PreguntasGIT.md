@@ -1,6 +1,6 @@
 # Preguntas acerca de GIT
 
-<pre>**¿Qué es git?**  
+**¿Qué es git?**  
 Git es un sistema de control de versiones, es decir un sistema o programa que controla o administra las distintas versiones de un programa.
 Es un sistema de control distribuido ya que permite trabajar con un repositorio de código, donde múltiples desarrolladores podrán alterar el código, pero todos ellos tendrán una copia local de él. 
 Es una herramienta que interactúa directamente con el sistema operativo.
@@ -57,4 +57,4 @@ Mediante el comando git checkout nombre de otra rama. Por ejemplo: gitcheckout l
 
 **Investigue qué es Markdown y responda todas las preguntas anteriores en este lenguaje (con el nombre de archivo RESPUESTAS.md). Súbalo al repositorio.**  
 Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial.
-Es decir, por un lado, es el lenguaje; por otro, una herramienta de software que convierte el lenguaje en HTML válido.<pre>
+Es decir, por un lado, es el lenguaje; por otro, una herramienta de software que convierte el lenguaje en HTML válido.
