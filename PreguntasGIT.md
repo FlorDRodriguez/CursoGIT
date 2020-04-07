@@ -3,7 +3,7 @@
 <pre>**¿Qué es git?**  
 Git es un sistema de control de versiones, es decir un sistema o programa que controla o administra las distintas versiones de un programa.
 Es un sistema de control distribuido ya que permite trabajar con un repositorio de código, donde múltiples desarrolladores podrán alterar el código, pero todos ellos tendrán una copia local de él. 
-Es una herramienta que interactúa directamente con el sistema operativo.444444444444
+Es una herramienta que interactúa directamente con el sistema operativo.<pre>
 
 **¿Por qué queremos utilizar git?**  
 Queremos utilizar git para controlar nuestro proyecto a medida que se van realizando cambios, ya que a medida que el proyecto va creciendo nosotros vamos cambiando archivos, se va cambiando la configurado de la aplicación, modificamos el código, etc.
