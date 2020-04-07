@@ -20,40 +20,40 @@ El bash es una consola, pero con mejores funcionalidades que trae todos los conc
 Por último, *repository* es donde se van a pasar los archivos cuando se esté decidido a guardar el cambio.
 
 **Describa el flujo para crear un nuevo repositorio git.**  
-1. Crear una carpeta para el proyecto
-2. En un editor, abrir esa carpeta y crear un archivo. Por ejemplo: En la carpeta proyecto el archivo app.js
-3. Abrir Git Bash (consola)
-4. Ubicarme en la carpeta. Por ejemplo: cd Desktop/proyecto
-5. Escribir el comando git init
+1. Crear una carpeta para el proyecto.
+2. En un editor, abrir esa carpeta y crear un archivo. Por ejemplo: En la carpeta proyecto el archivo app.js.
+3. Abrir Git Bash (consola).
+4. Ubicarme en la carpeta. Por ejemplo: cd Desktop/proyecto.
+5. Escribir el comando git init.
 
 **Describa el flujo para agregar un archivo simple al repositorio.**  
-1. Escribir el comando git add seguido del nombre del archivo. Por ejemplo: git add app.js
+1. Escribir el comando git add seguido del nombre del archivo. Por ejemplo: git add app.js.
 2. Escribir el comando git config –global user.email seguido de tu email.*
 3. Escribir el comando git config –global user.name seguido de tu nombre.*
-4. Escribir el comando git commit. Se abrirá el editor predeterminado (Vim), aquí hay que escribir un mensaje. Para empezar a escribir se presiona “i” para salir esc y luego :wq  
+4. Escribir el comando git commit. Se abrirá el editor predeterminado (Vim), aquí hay que escribir un mensaje. Para empezar a escribir se presiona “i” para salir esc y luego :wq.
 *Los pasos 2 y 3 se realizan si el usuario no está logueado y por única vez.*
 
 **Describa el flujo para cambiar el archivo agregado y guardar los cambios en el repositorio.**  
-1. Modifico el archivo.Por ejemplo: el archivo app.js
+1. Modifico el archivo.Por ejemplo: el archivo app.js.
 2. Para ver las diferencias en el archivo, escribo el comando git diff seguido del nombre del archivo.
-3. Para agregar los cambios, nuevamente git add seguido del nombre del archivo
+3. Para agregar los cambios, nuevamente git add seguido del nombre del archivo.
 4. Por último, git commit y al abrirse el editor escribo un nuevo mensaje.
 
 **¿Cómo hago para ignorar un archivo o carpeta?**  
-1. Creo un nuevo archivo llamado “.gitignore”
-2. En este archivo, escribo el nombre del archivo o carpeta que quiero ignorar
-3. En la consola, escribo el comando git add .gitignore
-4. Escribo git commit -m “El mensaje que quiera poner” (De esta forma evito entrar al editor de texto)
+1. Creo un nuevo archivo llamado “.gitignore”.
+2. En este archivo, escribo el nombre del archivo o carpeta que quiero ignorar.
+3. En la consola, escribo el comando git add .gitignore.
+4. Escribo git commit -m “El mensaje que quiera poner” (De esta forma evito entrar al editor de texto).
 
 **Explique qué es un branch. Dé un pequeño ejemplo de cómo haría uno.**  
 Branch es una rama nueva, es decir, una nueva versión alternativa del código.
-Para hacer un nuevo Branch, debo escribir el comando git branch nombre del Branch. Por ejemplo: git branch login
+Para hacer un nuevo Branch, debo escribir el comando git branch nombre del Branch. Por ejemplo: git branch login.
 
 **¿Qué hago con git add .?**  
 Con este comando logro agregar todos los archivos que quiero subir de una sola vez.
 
 **¿Cómo cambiamos de un branch a otro?**  
-Mediante el comando git checkout nombre de otra rama. Por ejemplo: gitcheckout login
+Mediante el comando git checkout nombre de otra rama. Por ejemplo: gitcheckout login.
 
 **Investigue qué es Markdown y responda todas las preguntas anteriores en este lenguaje (con el nombre de archivo RESPUESTAS.md). Súbalo al repositorio.**  
 Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial.
