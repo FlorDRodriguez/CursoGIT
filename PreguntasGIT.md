@@ -31,7 +31,7 @@ Por último, *repository* es donde se van a pasar los archivos cuando se esté d
 2. Escribir el comando git config –global user.email seguido de tu email.*
 3. Escribir el comando git config –global user.name seguido de tu nombre.*
 4. Escribir el comando git commit. Se abrirá el editor predeterminado (Vim), aquí hay que escribir un mensaje. Para empezar a escribir se presiona “i” para salir esc y luego :wq.
-*Los pasos 2 y 3 se realizan si el usuario no está logueado y por única vez.*
+*Los pasos 2 y 3 se realizan si el usuario no está logueado y por única vez.
 
 **Describa el flujo para cambiar el archivo agregado y guardar los cambios en el repositorio.**  
 1. Modifico el archivo.Por ejemplo: el archivo app.js.
